@@ -1,4 +1,5 @@
-let rootPath = "http://mysite.itvarsity.org/api/ContactBookApp/";
+
+let rootPath = "http://mysite.itvarsity.org/api/ContactBook/";
 let apiKey = checkApiKey();
 
 function checkApiKey() {
@@ -7,3 +8,6 @@ function checkApiKey() {
     }
     return localStorage.getItem("apiKey");
 }
+
+    
+
